@@ -13,7 +13,7 @@
                 }
             }
 
-            echo '<p>Привет, мир2!</p>';
+            echo '<p>Привет, мир!</p>';
               $command = escapeshellcmd('python -m scrapy.cmdline runspider blog2doc_scrapy/spiders/blog_spider.py -o ./data/out.html');
               execInBackground($command);
         ?>
